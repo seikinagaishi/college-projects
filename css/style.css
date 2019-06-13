@@ -507,7 +507,7 @@ a.fim:hover{
 
 @media screen and (max-width: 625px){
 	h1{
-		font-size: 2rem;
+		font-size: 1.8rem;
 	}
 	
 	.just p{
@@ -518,10 +518,6 @@ a.fim:hover{
 	p{
 		font-size: 1.2rem;
 		text-align: justify;
-	}
-	
-	h1{
-		font-size:2.5rem;
 	}
 	
 	footer{
