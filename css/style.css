@@ -350,7 +350,7 @@ footer{
 	background-color: #002A40;
 	width: 100%;
 	color: white;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	text-align: justify;
 	padding: 2% 0;
 	margin: auto;	
@@ -373,7 +373,7 @@ table.rdp{
 p.copyright{
 	text-align: center;
 	font-family: 'Dosis', sans-serif;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	color: lightsteelblue;
 	font-weight: normal;
 	line-height: 2rem;
