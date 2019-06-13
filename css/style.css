@@ -520,8 +520,12 @@ a.fim:hover{
 		text-align: justify;
 	}
 	
+	h1{
+		font-size:2.5rem;
+	}
+	
 	footer{
-		font-size: 0.5rem;
+		font-size: 0.4rem;
 	}
 
 	p.copyright{
