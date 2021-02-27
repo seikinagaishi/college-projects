@@ -1,0 +1,44 @@
+--------------------------------
+tbcli				|
+--------------------------------
+codcli				|
+nome (empresa)			|
+contato				|
+end				|
+fone				|
+email				|
+ramo				|
+fotocli				|
+--------------------------------
+
+--------------------------------
+tbfunc				|
+--------------------------------
+codfunc				|
+nome				|
+end				|
+bairro				|
+city				|
+tel				|
+cel				|
+email				|
+exp				|
+form				|
+login				|
+senha				|
+pefil				|
+foto				|
+--------------------------------
+
+--------------------------------
+tbserv				|
+--------------------------------
+codserv 			|
+nomecli 			|
+nometec				|
+serv (observação serviço)	|
+data 				|
+hora				|
+status				|
+obstec				|
+--------------------------------

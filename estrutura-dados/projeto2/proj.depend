@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1599104913 source:c:\users\gabriel\downloads\proj\proj.c
+	<stdio.h>
+	<time.h>
+	"proj.h"
+
+1599098788 c:\users\gabriel\downloads\proj\proj.h
+
+1599105101 source:c:\users\gabriel\downloads\proj\main.c
+	<stdio.h>
+	<stdlib.h>
+	"proj.h"
+	<locale.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+
+1599563497 source:c:\users\seiki\desktop\proj_commit\proj\main.c
+	<stdio.h>
+	<stdlib.h>
+	"proj.h"
+	<locale.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+
+1599563869 c:\users\seiki\desktop\proj_commit\proj\proj.h
+
+1599563511 source:c:\users\seiki\desktop\proj_commit\proj\proj.c
+	<stdio.h>
+	<time.h>
+	"proj.h"
+
+1599248753 source:c:\users\gabriel\documents\proj\main.c
+	<stdio.h>
+	<stdlib.h>
+	"proj.h"
+	<locale.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+
+1599204469 c:\users\gabriel\documents\proj\proj.h
+
+1599203488 source:c:\users\gabriel\documents\proj\proj.c
+	<stdio.h>
+	<time.h>
+	"proj.h"
+
+1599204469 source:c:\users\gabriel\documents\proj\proj.h
+
+1599269368 source:c:\users\gabriel\desktop\proj\proj.c
+	<stdio.h>
+	<time.h>
+	"proj.h"
+
+1599204469 c:\users\gabriel\desktop\proj\proj.h
+
+1599272918 source:c:\users\gabriel\desktop\proj\main.c
+	<stdio.h>
+	<stdlib.h>
+	"proj.h"
+	<locale.h>
+	<time.h>
+	<conio.h>
+	<stdio.h>
+

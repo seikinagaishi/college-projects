@@ -1,0 +1,544 @@
+/* Página */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: #fff;
+	color: white;	
+}
+/* ~~~~~~~~~~ */
+
+
+
+/* Navegação */
+label[for="respbt"]{
+	padding: 5px;
+	background-color: #002A40;
+	color: white;
+	font-family: 'Arial';
+	font-size: 2rem;
+	cursor: pointer;
+	width: 50px;
+	height:50px;
+	display: none;
+}
+
+#respbt{
+	display: none;
+}
+
+#nav{
+	background-color: #002A40;
+	box-sizing: border-box;
+	font-family: 'Gudea', sans-serif;
+	font-size: 1.2rem;
+	width: 100%;
+	height: 54px;
+}
+
+#nav ul{
+	list-style: none;
+	position: relative;
+}
+
+#nav ul li{
+	width: 210px;
+	float: left;
+}
+
+#nav a{
+	background-color: #002A40;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px;
+	display: block;
+	color: #fff;
+	transition: 0.07s ease-in;
+}
+
+#nav ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+
+#nav ul ul li{
+	float: none;
+}
+/* ~~~~~~~~~~ */
+
+
+
+/* Imagem Principal */
+.topic img{
+	width: 100%;
+	transition: 0.01s ease-out;
+	
+}
+/* ~~~~~~~~~~ */
+
+/*Perfil*/
+.profile{
+	color: black;
+	width: 280px;
+	padding: 20px;
+	background: white;
+	overflow: hidden;
+	margin: auto;
+	border-radius: 8px;
+	box-shadow: 1px 1px 12px black;
+}
+
+.user{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	margin: auto;
+}
+
+.user img{
+	width: 100%;
+	height: 100%;
+}
+
+h3{
+	color: green;
+	margin: 20px 0 0 0;
+	font-size: 1.3rem;
+}
+
+h4{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.profile p{
+	font-size: 1rem;
+	text-align: justify;
+}
+
+/*~~~~~~*/
+
+/* Corpo */
+#if{
+	width: 95%;
+	height: 200px;
+}
+
+img.imagens{
+	width: 65%;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+p{
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+
+span.keyw{
+	font-weight: bold;
+}
+
+a.linkwp{
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+	transition: color 0.2s ease-in;
+}
+
+div.just{
+	background-color: #e8eced;
+	color: #333;
+	padding: 0.5%;
+}
+
+.just p{
+	font-size: 1.5rem;
+	margin: 0 2%;
+}
+
+.type1{
+	background-color: #e8eced;
+	padding: 2.5% 2.5%;
+	color: #333;
+}
+
+.type2{
+	background-color:#fff;
+	padding: 2.5% 2.5%;
+	color: #333;
+}
+
+.content img{
+	width: 100%;
+}
+
+img.subtopic{
+	width: 50%;
+}
+
+ul{
+	list-style: none;
+}
+
+ul.tutorial{
+	font-size: 1.8rem;
+	padding: 2% 6%;
+	list-style: none;
+	border: 1px solid;
+}
+
+.step{
+	max-width: 100%;
+}
+
+.button{
+	background: none;
+	font-size: 1rem;
+	border: 2px solid black;
+	text-transform: uppercase;
+	padding: 12px 20px;
+	min-width: 200px;
+	margin: 10px;
+	cursor: pointer;
+	transition: color 0.4s linear;
+	transition: background 0.4s linear;
+}
+
+iframe{
+	width: 60%;
+}
+
+/* ~~~~~~~~~~ */
+
+/* Box */
+.box{
+	box-sizing: border-box;
+	padding: 40px 0;
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	font-size: 1.3rem;
+}
+
+.border{
+	width: 160px;
+	height: 2px;
+	background: #82ccdd;
+	margin: 30px auto;
+}
+
+.box ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box ul li{
+	max-width: 30%;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	margin: 20px 0;
+}
+
+img.icon{
+	width: 30%;
+	transition: filter 0.1s ease-out;
+}
+
+
+
+input{
+}
+
+/* ~~~~~~~~~~ */
+
+/*Galeria*/
+.galeria{
+	width: 25%;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+a.pic{
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+a.pic:hover{
+	filter: sepia(50%);
+}
+/*~~~~~~~~*/
+
+/*Formulário*/
+
+#share{
+	background-image: url('../img/praticas/background.jpg');
+	background-size: cover;
+	padding: 2.5% 2.5%;
+	color: #333;
+}
+
+.sharepic{
+	width: 85%;
+	max-width: 600px;
+	background: #f1f1f1;
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	box-shadow: 0 0 20px #000000b3;
+	font-family: "Montserrat", sans-serif;
+	margin: auto;
+}
+
+.sharepic h1{
+	margin-top: 0;
+	font-weight: bold;
+}
+
+.info{
+	border: 1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+
+.info label{
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+	font-size:1.1rem;
+}
+
+.info input, .info textarea{
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 1.3rem;
+	margin-top: 6px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.btnform{
+	display: block;
+	background: #82ccdd;
+	padding: 15px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+	border-radius:8px;
+}
+/*~~~~~~~~~~*/
+
+/* Rodapé */
+footer{
+	background-color: #002A40;
+	width: 100%;
+	color: white;
+	font-size: 1rem;
+	text-align: justify;
+	padding: 2% 0;
+	margin: auto;	
+}
+
+table.rdp{
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.rdp td{
+	padding: 0.2rem;
+	font-family: 'Dosis', sans-serif;
+	color: lightsteelblue;
+	font-weight: normal;
+	line-height: 2rem;
+}
+
+p.copyright{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1rem;
+	color: lightsteelblue;
+	font-weight: normal;
+	line-height: 2rem;
+}
+
+span.sup{
+	font-weight: bold;
+	color: white;
+}
+
+a.fim{
+	text-decoration: none;
+	color: lightsteelblue;
+}
+/* ~~~~~~~~~~~~ */
+
+
+
+/* Interações da Navegação */
+label[for="respbt"]:hover{
+	background-color: #f4f4f4;
+	color: #555;
+}
+
+#nav ul li:hover ul{
+	visibility: visible;
+}
+
+#nav a:hover{
+	background-color: #f4f4f4;
+	color: #555;
+}
+
+.topic img:hover{
+	filter: grayscale(50%);
+}
+
+img.icon:hover{
+	filter: grayscale(60%);
+}
+
+a.linkwp:hover{
+	color: black;
+}
+
+.button:hover{
+	color: #fff;
+	background: black;
+}
+
+a.fim:hover{
+	color: white;
+	transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 765px){
+
+	#nav ul li{
+		width: 100%;
+		float: none;
+	}
+	
+	#nav ul ul{
+		position: static;
+		overflow: hidden;
+		max-height: 0;
+		transition: all 0.4s;
+	}
+	
+	#nav ul li:hover ul{
+		height: auto;
+		max-height: 200px;
+	}
+	
+	#nav{
+		margin-top: 5px;
+		margin-left: -100%;
+		transition: all 0.4s;
+	}
+	
+	#nav ul ul li a{
+		background-color: black;
+	}
+	
+	label[for="respbt"]{
+		display: block;
+	}
+	
+	#respbt:checked ~ #nav{
+		margin-left: 0;
+	}
+	
+	h1{
+		font-size: 2.8rem;
+	}
+	
+	footer{
+		font-size: 0.7rem;
+	}
+	
+	.rdp td{
+		line-height: 1.5rem;
+	}
+	
+	p.copyright{
+		font-size: 0.7rem;
+	}
+	
+	.box{
+		font-size: 1.2rem;
+	}
+	
+	
+
+	.sharepic{
+		padding: 15px 30px;
+	}
+	
+	.sharepic h1{
+		font-size: 1.7rem;
+	}
+
+	.info label{
+		font-size: 0.9rem;
+	}
+
+	.info input, .info textarea{
+		font-size: 1.1rem;
+	}
+}
+
+@media screen and (max-width: 625px){
+	h1{
+		font-size: 1.8rem;
+	}
+	
+	.just p{
+		font-size: 1.2rem;
+		text-align: justify;
+	}
+	
+	p{
+		font-size: 1.2rem;
+		text-align: justify;
+	}
+	
+	footer{
+		font-size: 0.4rem;
+	}
+
+	p.copyright{
+		font-size: 0.5rem;
+	}
+	
+	.button{
+		border: 1px solid black;
+		padding: 7px 15px;
+		min-width: 100px;
+	}
+	ul.tutorial{
+		font-size:1.1rem;
+	}
+	
+	iframe{
+		width:80%;
+		height:300px;
+	}
+}

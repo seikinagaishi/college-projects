@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1574695978 source:c:\users\seiki\desktop\projetoed1_andre_kahua\listaprojeto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"listaprojeto.h"
+
+1574695746 c:\users\seiki\desktop\projetoed1_andre_kahua\listaprojeto.h
+
+1574693714 source:c:\users\seiki\desktop\projetoed1_andre_kahua\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<ctype.h>
+	<string.h>
+	<windows.h>
+	"listaprojeto.h"
+
+1575486566 source:c:\users\seiki\desktop\ifsp\2º semestre\estrutura de dados i\projeto_final\projetoed1_andre_kahua\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<ctype.h>
+	<string.h>
+	<windows.h>
+	"listaprojeto.h"
+
+1575486657 c:\users\seiki\desktop\ifsp\2º semestre\estrutura de dados i\projeto_final\projetoed1_andre_kahua\listaprojeto.h
+
+1575487144 source:c:\users\seiki\documents\github\projetos\seikinagaishi.github.io\projetoed1_andre_kahua\listaprojeto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"listaprojeto.h"
+
+1575486657 c:\users\seiki\documents\github\projetos\seikinagaishi.github.io\projetoed1_andre_kahua\listaprojeto.h
+

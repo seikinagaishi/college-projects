@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1600800928 source:c:\users\seiki\desktop\proj2_commit\proj\arvoreavl.c
+	<stdio.h>
+	<stdlib.h>
+	"proj.h"
+
+1600799892 c:\users\seiki\desktop\proj2_commit\proj\proj.h
+
+1600800882 source:c:\users\seiki\desktop\proj2_commit\proj\proj.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"proj.h"
+
+1600800924 source:c:\users\seiki\desktop\proj2_commit\proj\arvorellrb.c
+	<stdio.h>
+	<stdlib.h>
+	"proj.h"
+
+1600801101 source:c:\users\seiki\desktop\proj2_commit\proj\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<locale.h>
+	<string.h>
+	"proj.h"
+

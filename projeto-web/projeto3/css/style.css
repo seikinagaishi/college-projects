@@ -1,0 +1,437 @@
+/*Tela*/
+
+header{
+    height:80vh;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    height: 15vh;
+}
+
+.ashion{
+    position: absolute;
+    width:20%;
+    top: 0%;
+    left: 40%;
+}
+
+#push{
+    height: 18vh;
+}
+
+#minipush{
+    height: 1vh;
+}
+
+#pushserv{
+    height: 15vh;
+}
+
+/*Página Index*/
+div#pagini{
+    background-image: url('../img/entrada.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.entre{
+    transition: filter 1.5s;
+    width: 50%;
+}
+
+/*Página ADM*/
+div#pagadm{
+    background-image: url('../img/sala_muito_vazia.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.mesa{
+    margin-left: 2%;
+    margin-top: 9.2%;
+    width: 97%;
+    overflow:hidden;
+    position: absolute;
+}
+
+#nah{
+    background-color: white;
+    position: relative;
+    min-height: 1vh;
+    max-height: 10vh;
+}
+
+#admicons{
+    height: 55.3vh;
+}
+
+.iconeclick{
+    width: 70%;
+    transition: filter 1.5s;
+}
+
+.iconeclick:hover{
+    filter: brightness(2);
+}
+
+/*Página Login*/
+div#paglog{
+    background-image: url('../img/login.jpg');
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+fieldset.loginsession{
+    background-image: url('../img/log.jpg');
+    background-size: cover;
+    border: 2px solid;
+    margin-left: 45%;
+    margin-top: 6%;
+    width: 40%;
+    max-height: 70vh;
+}
+
+/*Página de Funcionários*/
+div#pagmemb{
+    background-image: url('../img/tec.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+/*Página de Serviço*/
+div#pagserv, div#pagservnav{
+    background-image: url('../img/tabuleta.jpg');
+    background-size: cover;
+}
+
+div#pagserv{
+    height: 100vh;
+}
+
+div#pagservnav{
+    min-height: 85vh;
+}
+
+div#pagservlivro{
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.book{
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    max-height: 100vh;
+    position: absolute;
+    margin: auto;
+}
+
+fieldset.quests{
+    border: none;
+    background-image: url('../img/folha.png');
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+}
+
+fieldset.livro{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    margin: auto;
+}
+
+/*Página de Clientes*/
+div#pagcli{
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+fieldset.client, fieldset.sheet, fieldset.sheet2{
+    background-size: cover;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+fieldset.client{
+    background-image: url('../img/folha.png');
+}
+
+fieldset.sheet{
+    background-image: url('../img/sheet.png');
+}
+
+fieldset.sheet2{
+    background-image: url('../img/sheet2.png');
+}
+
+/*Listagem */
+div#paglist{
+    min-height: 80vh;
+}
+
+.cl{
+    display: block;
+}
+
+.list{
+    margin: 0 0 0 10%;
+    width: 80%;
+    height: 50%;
+}
+
+#listar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#listarlivro{
+    display: flex;
+    width: 90%;
+    padding: 1% 0;
+    max-height: 100vh;
+}
+
+/*Card Funcionário*/
+
+.nob{
+    border: none;
+    width: 120px;
+}
+
+fieldset.noborder{
+    padding: 1.4%;
+    width: 20%;
+}
+
+.card, fieldset.noborder{
+    background-image: url('../img/card.png');
+    background-size: cover;
+}
+
+/*Botões*/
+.bt{
+    background: white;
+    border: 2px solid black;
+	text-transform: uppercase;
+    padding: 12px 20px;
+    cursor: pointer;
+	transition: color 0.2s linear;
+	transition: background 0.2s linear;
+}
+
+.botao, .botao3{
+    width: 12%;
+    transition: filter 1.5s;
+}
+
+.botao2{
+    width: 25%;
+    transition: filter 1.5s;
+}
+
+.botao3{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width:3%;
+}
+
+.editbt, .envbt, .cadbt, .entrebt{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color:rgba(0,0,0,0);
+    width: 110px;
+    transition: filter 1.5s;
+    cursor: pointer;
+}
+
+.entrebt{
+    background-image: url('../img/entrar.png');
+}
+
+.editbt{
+    background-image: url('../img/edit.png');
+}
+
+.envbt{
+    background-image: url('../img/send.png');
+}
+
+.cadbt{
+    background-image: url('../img/cad.png');
+}
+
+.return{
+    width: 3%;
+    position: absolute;
+    padding: 2px 0 0 2px;
+    transition: filter 1.5s;
+}
+
+/*Setup*/
+*{
+    margin: auto;
+    font-family: 'Ruda', sans-serif;
+}
+
+.alrt{
+    color: white;
+}
+
+input{
+    width:240px;
+}
+
+fieldset{
+    text-align: center;
+    border: 1px solid gray;
+	margin: 10px auto;
+	padding: 12px 18px;
+	border-radius: 10px;
+    width: 30%;
+    background: white;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    padding: 50px 0;
+}
+
+p{
+    text-align:center;
+}
+
+a{
+    text-decoration: none;
+	text-align: center;
+    font-weight: bold;
+    color: black;
+    transition: color 0.1s;
+}
+
+.border{
+	width: 200px;
+	height: 2px;
+	background: orange;
+	margin: auto;
+}
+
+/*FX*/
+a:hover{
+    color: gray;
+}
+
+.bt:hover{
+	color: #fff;
+	background: black;
+}
+
+input:focus, button:focus, textarea:focus, select:focus{
+    outline: 0;
+}
+
+.pict:hover, .pict2:hover, .clipic:hover, .profpic:hover{
+    filter: brightness(1.1);
+}
+
+.pict:hover{
+    position: relative;
+    width: 85%;
+    height: 50%;
+    margin-top: -1%;
+}
+
+.entre:hover, .botao:hover, .botao2:hover, .editbt:hover, .return:hover, .envbt:hover, .cadbt:hover, .botao3:hover, .entrebt:hover{
+    filter: brightness(1.5);
+}
+
+/*Config*/
+input, select{
+    text-align: center;
+    width: 300px;
+    height:50px;
+    border-radius: 8px;
+}
+
+textarea{
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.serv{
+    height: 400px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+#fila{
+    display: flex;
+}
+
+#filaicone{
+    display: flex;
+    margin-left: 6%;
+    margin-top: 1%;
+    width: 90%;
+    position: absolute;
+}
+
+table{
+    width: 100%;
+}
+
+.titulo{
+    padding: 2px 0;
+    font-weight: bold;
+}
+
+th{
+    font-weight: normal;
+}
+
+input.edt{
+    margin: auto;
+    width: 100%;
+    height:20px;
+    border-radius: 0px;
+    font-size:15px;
+}
+
+/*Imagens*/
+.pict, .pict2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: 0.1s height;
+}
+
+.profpic{
+    width:260px;
+    height: 320px;
+    transition: 0.5s all;
+}
+
+.clipic{
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    transition: 0.5s filter, height;
+}
